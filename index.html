@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>War - Card Game</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+
+		<h1>This is War!</h1>
+
+		<section class="btn">
+			<button id="draw">Deal Two Cards!</button>
+			<button id="reset">Reset Game</button>
+			<button id="check-deck">Check Decks</button>
+		</section>
+
+		<section class="the-bucket flex-box">
+			<section class="player1">
+				<h2>Player 1</h2>
+				<img id="player1" src="img/cardBack.jpg" alt="playing card">
+				<img id="p1Face-down" class="hidden" src="img/cardBack.jpg" alt="War player 1 face down playing card">
+				<img id="p1War" class="hidden" src="img/cardBack.jpg" alt="War player 1 playing card">
+				<span id ='p1Pile'>Player 1 Pile: </span>
+				<h4 id="p1List"></h3>
+			</section>
+
+			<section class="player2">
+				<h2>Player 2</h2>
+				<img id="player2" src="img/cardBack.jpg" alt="playing card">
+				<img id="p2Face-down" class="hidden" src="img/cardBack.jpg" alt="War player 2 face down playing card">
+				<img id="p2War" class="hidden" src="img/cardBack.jpg" alt="War player 2 playing card">
+				<span id="p2Pile">Player 2 Pile: </span>
+				<h4 id="p2List"></h3>
+			</section>
+		</section>
+
+
+		<h3>Result</h3>
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
